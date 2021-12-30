@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <!-- TODO: corregir scrollview -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".ui.activities.LoginActivity">
+
+            <ImageView
+                android:id="@+id/BannerLogo"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:contentDescription="@string/logo"
+                android:scaleType="fitXY"
+                android:src="@drawable/la_boutique_banner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            app:boxStrokeColor="@color/primary_light_pink"
+            android:textColorHint="@color/primary_pink"
+            android:hint="@string/et_hint_email_id"
+            app:hintTextColor="@color/primary_pink"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/colorDarkGrey"
+            app:startIconDrawable="@drawable/ic_email_24dp"
+            app:startIconTint="@color/colorDarkGrey"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BannerLogo">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark_pink"
+                android:textSize="@dimen/et_textSize"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/et_padding"
+                android:singleLine="false"
+                android:textCursorDrawable="@null"
+                tools:text="abc@gmail.com"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/et_hint_password"
+            android:inputType="textPassword"
+            app:hintTextColor="@color/primary_pink"
+            android:textColorHint="@color/primary_pink"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="@color/primary_pink"
+            app:startIconDrawable="@drawable/ic_pass_24dp"
+            app:startIconTint="@color/colorDarkGrey"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/colorDarkGrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tilMail">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/et_padding"
+                android:textColor="@color/primary_dark_pink"
+                android:textColorHint="@color/primary_light_pink"
+                android:textSize="@dimen/et_textSize"
+                android:textCursorDrawable="@null"
+                tools:text="12345"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="@dimen/clickable_password_textSize"
+            android:text="@string/lbl_forgot_password"
+            android:textColor="@color/primary_dark_pink"
+            android:textSize="@dimen/forgot_password_textSize"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tilPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/primary_pink"
+            android:foreground="?attr/selectableItemBackground"
+            android:paddingBottom="@dimen/btn_padding"
+            android:paddingTop="@dimen/btn_padding"
+            android:gravity="center"
+            android:text="@string/btn_lbl_login"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/btn_textSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvForgotPassword"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLogin">
+
+            <TextView
+                android:id="@+id/tvDon_tHaveAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="@dimen/clickable_textview_padding"
+                android:text="@string/don_t_have_account"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/lbl_text_view_textSize"/>
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="@dimen/clickable_textview_padding"
+                android:text="@string/register"
+                android:textStyle="bold"
+                android:textColor="@color/primary_dark_pink"
+                android:textSize="@dimen/lbl_text_view_textSize"/>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

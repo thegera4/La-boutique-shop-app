@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056580890509",
+    "project_id": "la-boutique-cbde3",
+    "storage_bucket": "la-boutique-cbde3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056580890509:android:b50d78b31ecdbe0d0d97c4",
+        "android_client_info": {
+          "package_name": "com.shop.laboutique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056580890509-5g3aadbucgt70eh4g79cclscusofcq6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shop.laboutique",
+            "certificate_hash": "66b4b1c185dc09afb4424513bfff40d26a9d8b15"
+          }
+        },
+        {
+          "client_id": "1056580890509-8276j291d858fj71g80knbc2jhnng41o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAloLrxvAvXe08Fvqd3-WUgh56QS-XOMfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056580890509-8276j291d858fj71g80knbc2jhnng41o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

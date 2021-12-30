@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-sdk:20.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1228880a7fc8e4869b9d224dedfe8f8c/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/343f291d05d39c99382cf6fe5330d16a/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a6b96ad3a1ba45a28f3a15662cb66e5e/transformed/jetified-play-services-measurement-sdk-20.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6b96ad3a1ba45a28f3a15662cb66e5e/transformed/jetified-play-services-measurement-sdk-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a6b96ad3a1ba45a28f3a15662cb66e5e/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-sdk/20.0.0/ace98f39b262c59be4be4d52b871d1ba5dfff723/play-services-measurement-sdk-20.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
