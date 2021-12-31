@@ -88,3 +88,5 @@ class SettingsActivity : BaseActivity(), View.OnClickListener {
         }
     }
 }
+
+//TODO checar boton de actualizar datos me mando a dashboard no a customer view

@@ -112,5 +112,6 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
         finish()
     }
 
+    //TODO AGREGAR SHARED PREFERENCES CON SWITCH BUTTON
 
 }

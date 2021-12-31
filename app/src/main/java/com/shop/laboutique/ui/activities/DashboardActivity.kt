@@ -18,8 +18,8 @@ class DashboardActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        supportActionBar!!.setBackgroundDrawable(ContextCompat.getDrawable(
-            this@DashboardActivity,R.drawable.app_gradient_color_background))
+        /*supportActionBar!!.setBackgroundDrawable(ContextCompat.getDrawable(
+            this@DashboardActivity,R.drawable.app_gradient_color_background))*/
 
         binding = ActivityDashboardBinding.inflate(layoutInflater)
 
@@ -37,7 +37,7 @@ class DashboardActivity : BaseActivity() {
                 R.id.navigation_notifications
             )
         )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+        //setupActionBarWithNavController(navController, appBarConfiguration)
 
         navView.setupWithNavController(navController)
 

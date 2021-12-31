@@ -71,7 +71,8 @@
             android:name=".ui.activities.DashboardActivity"
             android:exported="false"
             android:label="@string/title_activity_dashboard"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar"/>
         <activity
             android:name=".ui.activities.ForgotPasswordActivity"
             android:exported="false"
