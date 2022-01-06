@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import android.net.Uri
 import android.util.Log
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions
@@ -78,6 +79,29 @@ class FirebaseClass {
                 }
             }
     }
+
+    fun getUserDetailsFragment(fragment: Fragment){
+
+        //Here we pass the collection name from which we want the data
+        mFireStore.collection(Constants.USERS)
+            //The document id to get the field of user
+            .document(getCurrentUserID())
+            .get()
+            .addOnSuccessListener { document ->
+                Log.i(fragment.javaClass.simpleName, document.toString())
+                //Here we have received the document snapshot which is converted into the user data model object
+                val user = document.toObject(User::class.java)!!
+
+                when(fragment){
+                    is SellerProfileFragment -> fragment.userDetailsSuccessFragment(user)
+                }
+            }
+            .addOnFailureListener {
+                when(fragment){
+                    is SellerProfileFragment -> fragment.hideProgressDialog()
+                }
+                }
+            }
 
     fun uploadImageToCloudStorage(activity: Activity, imageFileURI: Uri?, imageType: String){
         val sRef: StorageReference = FirebaseStorage.getInstance().reference.child(

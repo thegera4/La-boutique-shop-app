@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/toolbar_register_activity"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/white"
     tools:context=".ui.activities.RegisterActivity">
-
-    <!-- TODO terminos y condiciones-->
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_register_activity"
@@ -30,16 +37,13 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar_register_activity">
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar_register_activity">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/til_first_name"
@@ -218,6 +222,17 @@
                     android:textColor="@color/primary_pink"
                     android:textStyle="bold"
                     android:textSize="@dimen/txt_terms_and_condition_textSize" />
+
+                <TextView
+                    android:id="@+id/tv_terms_condition_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/txt_terms_condition_marginStart"
+                    android:text="@string/i_agree_to_the_terms_and_condition_link"
+                    android:textColor="@color/purple_200"
+                    android:textStyle="italic|bold"
+                    android:textSize="@dimen/txt_terms_and_condition_textSize" />
+
             </LinearLayout>
 
             <Button
@@ -272,6 +287,6 @@
                     android:textSize="@dimen/lbl_text_view_textSize" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

@@ -97,7 +97,4 @@ override fun onDestroyView() {
         _binding = null
     }
 
-  //TODO corregir recyclerview que no se ve el fondo
-
-  //TODO corregir problema de doble click para abrir detalles en recicler view de catalogo/productos
 }

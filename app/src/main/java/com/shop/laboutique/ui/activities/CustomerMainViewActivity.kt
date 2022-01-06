@@ -35,11 +35,6 @@ class CustomerMainViewActivity : BaseActivity() {
 
     private fun setupActionBar() {
         setSupportActionBar(binding.toolbarCustomerMainView)
-        val actionBar = supportActionBar
-        /*if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true)
-            actionBar.setHomeAsUpIndicator(R.drawable.ic_white_color_back_24)
-        }*/
         binding.toolbarCustomerMainView.setNavigationOnClickListener { onBackPressed() }
     }
 

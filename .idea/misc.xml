@@ -54,6 +54,7 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/activity_settings.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/activity_sold_product_details.xml" value="0.3120471014492754" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/activity_splash.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/activity_terms_conditions.xml" value="0.19940955448201825" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/activity_user_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/dialog_progress.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_base.xml" value="0.38697916666666665" />
@@ -62,7 +63,9 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_home.xml" value="0.3867753623188406" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_notifications.xml" value="0.360054347826087" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_products.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_purchased.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/fragment_seller_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/item_address_layout.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/item_cart_layout.xml" value="0.3736413043478261" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/layout/item_dashboard_layout.xml" value="0.33" />
@@ -71,6 +74,8 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/menu/bottom_nav_menu_customer.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/menu/dashboard_customer_menu.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/menu/dashboard_menu.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/KOT_La_Boutique/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23489583333333333" />
       </map>
     </option>
   </component>

@@ -181,11 +181,11 @@ class UserProfileActivity : BaseActivity(), View.OnClickListener {
             // authenticate with your backend server, if you have one. Use
             // FirebaseUser.getToken() instead.
             val uid = user.uid
-            if (uid == "je50MGnp4BhBLDtwAwptgFj9ocl2") {
+            if (uid == "w80Bk2YDL8T0TLskAyVmF16CsFG2") {
+                startActivity(Intent(this@UserProfileActivity, DashboardActivity::class.java))
+            } else {
                 startActivity(Intent(this, CustomerMainViewActivity::class.java))
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-            } else {
-                startActivity(Intent(this@UserProfileActivity, DashboardActivity::class.java))
             }
             finish()
 

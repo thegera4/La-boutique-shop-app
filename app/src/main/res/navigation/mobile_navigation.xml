@@ -22,4 +22,11 @@
         android:name="com.shop.laboutique.ui.activities.fragments.SoldFragment"
         android:label="@string/title_sold"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.shop.laboutique.ui.activities.fragments.SellerProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_seller_profile" />
+
 </navigation>

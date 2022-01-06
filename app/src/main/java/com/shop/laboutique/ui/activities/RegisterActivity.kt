@@ -1,5 +1,6 @@
 package com.shop.laboutique.ui.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.EditText
@@ -33,7 +34,10 @@ class RegisterActivity : BaseActivity() {
             registerUser()
         }
 
-        //TODO agregar pantalla de terminos y condiciones
+        binding.tvTermsConditionLink.setOnClickListener {
+            startActivity(Intent(this, TermsConditionsActivity::class.java))
+        }
+
     }
 
     private fun setupActionBar(){

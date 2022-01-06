@@ -7,11 +7,9 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-    <!-- TODO: corregir scrollview -->
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/white"
         tools:context=".ui.activities.LoginActivity">
 
@@ -132,6 +130,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tvForgotPassword"/>
 
         <LinearLayout
+            android:id="@+id/ll_no_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -160,12 +159,13 @@
                 android:foreground="?attr/selectableItemBackground"
                 android:padding="@dimen/clickable_textview_padding"
                 android:text="@string/register"
-                android:textStyle="bold"
                 android:textColor="@color/primary_dark_pink"
-                android:textSize="@dimen/lbl_text_view_textSize"/>
+                android:textSize="@dimen/lbl_text_view_textSize"
+                android:textStyle="bold" />
+
+
 
         </LinearLayout>
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
