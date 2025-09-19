@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KOT_La_Boutique.iml" filepath="$PROJECT_DIR$/.idea/modules/KOT_La_Boutique.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KOT_La_Boutique.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KOT_La_Boutique.app.iml" />
     </modules>
   </component>
